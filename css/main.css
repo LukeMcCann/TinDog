@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300&display=swap");
 body {
   font-family: "Montserrat", sans-serif; }
+  body h3 {
+    font-family: "Montserrat";
+    font-weight: 900; }
+  body p, body a {
+    color: #8f8f8f; }
 
 #title {
   font-family: "Montserrat";
@@ -31,13 +36,24 @@ body {
     padding: 0 18px; }
     .navbar .nav-item a {
       font-size: 1.2rem;
-      font-family: "Montserrat";
-      color: #8d8989; }
+      font-family: "Montserrat"; }
 
 .btn-download {
   margin: 5% 3% 5% 0;
   border-radius: 0.5rem;
   font-family: "Montserrat";
   font-weight: 300; }
+
+#features {
+  padding: 7% 15%; }
+  #features .feature-box {
+    text-align: center;
+    padding: 5%; }
+  #features .feature-ico {
+    color: #Ef8172;
+    margin-bottom: 1.5rem; }
+  #features .feature-ico:hover {
+    color: #FF4C68;
+    cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */

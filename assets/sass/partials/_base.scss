@@ -1,4 +1,15 @@
 body 
 {
     font-family: $Montserrat, sans-serif;
+
+    h3 
+    {
+        font-family: $Montserrat;
+        font-weight: 900;
+    }
+
+    p, a
+    {
+        color: $secondary-color;
+    }
 }

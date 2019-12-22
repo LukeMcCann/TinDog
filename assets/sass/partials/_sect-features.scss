@@ -1,0 +1,21 @@
+#features 
+{
+    padding: 7% 15%;
+    .feature-box
+    {
+        text-align: center;
+        padding: 5%;
+    }
+
+    .feature-ico
+    {
+        color: $featured-color;
+        margin-bottom: 1.5rem;
+    }
+
+    .feature-ico:hover
+    {
+        color: $primary-color;
+        cursor: pointer;
+    }
+}
