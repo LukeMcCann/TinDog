@@ -1,3 +1,10 @@
-
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,400,900&display=swap");
+body #title {
+  background-color: #FF4C68; }
+body nav img {
+  max-width: 20px;
+  margin: auto 0.25em 10px auto; }
+body .navbar {
+  box-shadow: none; }
 
 /*# sourceMappingURL=main.css.map */

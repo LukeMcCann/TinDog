@@ -1,2 +1,21 @@
 @import 'partials/colors';
 @import 'partials/fonts';
+
+body
+{
+    #title
+    {
+        background-color: $primary-color;
+    }
+
+    nav img
+    {
+        max-width: 20px;
+        margin: auto 0.25em 10px auto;
+    }
+
+    .navbar 
+    {
+        box-shadow: none;
+    }
+}
