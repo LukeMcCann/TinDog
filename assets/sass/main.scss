@@ -1,31 +1,7 @@
 @import 'partials/colors';
 @import 'partials/fonts';
+@import 'partials/base';
+@import 'partials/sect-title';
+@import 'partials/navbar';
+@import 'partials/btn-download';
 
-body
-{
-    #title
-    {
-        background-color: $primary-color;
-        h1 
-        {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 3rem;
-            line-height: 1.5;
-        }
-
-        .navbar
-        {
-            box-shadow: none;
-            img
-            {
-                max-width: 20px;
-                margin: auto 0.25em 10px auto;
-            }
-        }
-
-        .container-fluid
-        {
-            padding: 3% 15%;
-        }
-    }
-}
