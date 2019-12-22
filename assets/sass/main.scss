@@ -6,16 +6,26 @@ body
     #title
     {
         background-color: $primary-color;
-    }
+        h1 
+        {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3rem;
+            line-height: 1.5;
+        }
 
-    nav img
-    {
-        max-width: 20px;
-        margin: auto 0.25em 10px auto;
-    }
+        .navbar
+        {
+            box-shadow: none;
+            img
+            {
+                max-width: 20px;
+                margin: auto 0.25em 10px auto;
+            }
+        }
 
-    .navbar 
-    {
-        box-shadow: none;
+        .container-fluid
+        {
+            padding: 3% 15%;
+        }
     }
 }

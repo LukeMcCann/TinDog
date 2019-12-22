@@ -1,1 +1,1 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:100,400,900&display=swap);body #title{background-color:#ff4c68}body nav img{max-width:20px;margin:auto .25em 10px auto}body .navbar{box-shadow:none}
+@import url(https://fonts.googleapis.com/css?family=Montserrat:900|Ubuntu&display=swap);body #title{background-color:#ff4c68}body #title h1{font-family:Montserrat,sans-serif;font-size:3rem;line-height:1.5}body #title .navbar{box-shadow:none}body #title .navbar img{max-width:20px;margin:auto .25em 10px auto}body #title .container-fluid{padding:3% 15%}
