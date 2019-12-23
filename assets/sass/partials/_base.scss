@@ -1,7 +1,6 @@
 body 
 {
     font-family: $Montserrat, sans-serif;
-
     h2 
     {
         font-size: 3rem;
@@ -23,4 +22,12 @@ body
     {
         color: $alt-text-color;
     }
+    
+    .carousel .carousel-control-prev-icon, 
+    .carousel .carousel-control-next-icon 
+    {
+        width: 6.25rem;
+        height: 2.3rem;
+    }
 }
+
