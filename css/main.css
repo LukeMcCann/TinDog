@@ -21,7 +21,7 @@ body {
   font-family: "Montserrat";
   color: #fff; }
   #title .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
     background-color: #FF4C68; }
     #title .container-fluid h1 {
       font-weight: 900;
@@ -30,7 +30,8 @@ body {
   #title .row img {
     transform: rotate(25deg);
     width: 60%;
-    position: absolute; }
+    position: absolute;
+    right: 30%; }
 
 .navbar {
   box-shadow: none;
