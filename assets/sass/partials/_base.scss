@@ -2,7 +2,13 @@ body
 {
     font-family: $Montserrat, sans-serif;
 
-    h3 
+    h2 
+    {
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+
+    h3, h2
     {
         font-family: $Montserrat;
         font-weight: 900;
@@ -11,5 +17,10 @@ body
     p, a
     {
         color: $secondary-color;
+    }
+
+    .colored-section
+    {
+        color: $alt-text-color;
     }
 }
